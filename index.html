@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calulator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div>
+      <input class="container-main input" type="button" value="" />
+      <div class="screen-container">
+        <!-- <input class="screen-led" type="button" value="" /> -->
+        <div class="screen-input">
+          <div
+            id="displayResult"
+            class="display display-result"
+            style="background-color: rgb(235, 235, 235)"
+          >
+            <!-- hi -->
+          </div>
+          <div
+            id="hello"
+            class="display display-input"
+            style="background-color: rgb(235, 235, 235)"
+          >
+            <!-- <span class="num1">0</span><span class="num2">0</span> -->
+            <!-- hello -->
+          </div>
+        </div>
+        <hr class="line-breaker" />
+      </div>
+      <input class="container-button" type="button" value="" />
+      <div class="buttons">
+        <button type="button" class="button btn btn-dark signKey c">C</button>
+        <button type="button" class="button btn btn-dark signKey ac">AC</button>
+        <button type="button" class="button btn btn-dark col1 row3 numericKey">
+          1
+        </button>
+        <button type="button" class="button btn btn-dark col2 row3 numericKey">
+          2
+        </button>
+        <button type="button" class="button btn btn-dark col3 row3 numericKey">
+          3
+        </button>
+        <button
+          type="button"
+          class="button btn btn-dark col4 row3 operatorKey signKey minus"
+        >
+          -
+        </button>
+        <button type="button" class="button btn btn-dark col1 row2 numericKey">
+          4
+        </button>
+        <button type="button" class="button btn btn-dark col2 row2 numericKey">
+          5
+        </button>
+        <button type="button" class="button btn btn-dark col3 row2 numericKey">
+          6
+        </button>
+        <button
+          type="button"
+          class="button btn btn-dark col4 row2 operatorKey signKey multiply"
+        >
+          X
+        </button>
+        <button type="button" class="button btn btn-dark col1 row1 numericKey">
+          7
+        </button>
+        <button type="button" class="button btn btn-dark col2 row1 numericKey">
+          8
+        </button>
+        <button type="button" class="button btn btn-dark col3 row1 numericKey">
+          9
+        </button>
+        <button
+          type="button"
+          class="button btn btn-dark col4 row1 operatorKey signKey divide"
+        >
+          /
+        </button>
+        <button
+          type="button"
+          class="button btn btn-dark col1 row4 operatorKey numericKey1 dot"
+        >
+          .
+        </button>
+        <button type="button" class="button btn btn-dark col2 row4 numericKey">
+          0
+        </button>
+        <button
+          type="button"
+          class="button btn btn-dark col3 row4 numericKey1 operatorKey add"
+        >
+          +
+        </button>
+        <button
+          type="button"
+          class="button btn btn-dark col4 row4 calcKey signKey equal"
+        >
+          =
+        </button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

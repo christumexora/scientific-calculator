@@ -1,0 +1,90 @@
+.container-main {
+  background-color: rgb(223, 199, 199);
+  height: 35rem;
+  width: 30rem;
+  position: relative;
+  top: 1.5rem;
+  left: 25rem;
+}
+.screen-led {
+  background-color: white;
+  height: 7rem;
+  width: 25rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 4rem;
+  left: 28rem;
+}
+.display {
+  height: 3rem;
+  width: 24rem;
+  padding-top: 0%;
+  margin-top: 0%;
+  border: 0;
+  position: absolute;
+  left: 28.5rem;
+}
+.display-result {
+  top: 4.5rem;
+}
+.display-input {
+  top: 7.5rem;
+}
+.line-breaker {
+  border-width: 0.1rem;
+  width: 29.8rem;
+  position: absolute;
+  left: 25rem;
+  bottom: 24rem;
+}
+.container-button {
+  height: 20rem;
+  width: 25rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 15rem;
+  left: 28rem;
+}
+.c {
+  left: 30rem;
+  bottom: 19rem;
+}
+.ac {
+  left: 45.5rem;
+  bottom: 19rem;
+}
+.signKey {
+  height: 2.5rem;
+  width: 5.5rem;
+  position: absolute;
+}
+.numericKey,
+.numericKey1 {
+  height: 2.5rem;
+  width: 4rem;
+  position: absolute;
+}
+.col1 {
+  left: 30.25rem;
+}
+.col2 {
+  left: 35.25rem;
+}
+.col3 {
+  left: 40.25rem;
+}
+.col4 {
+  left: 45.25rem;
+}
+.row1 {
+  bottom: 15rem;
+}
+.row2 {
+  bottom: 11.5rem;
+}
+.row3 {
+  bottom: 8rem;
+}
+.row4 {
+  bottom: 4.5rem;
+}
